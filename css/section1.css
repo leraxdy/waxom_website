@@ -80,21 +80,39 @@
     color: white;
     font-size: 10px;
 }
+.button:hover{
+    background-color: rgb(113, 96, 86);
+    border-bottom: 2px solid #3c3530;
+}
+
 .left_arrow{
     color: white;
     font-size: 90px;
     margin: 70px;
+}
+.left_arrow:hover{
+    color: #988677;
 }
 .right_arrow{
     color: white;
     font-size: 90px;
     margin: 70px;
 }
+.right_arrow:hover{
+    color: #988677;
+}
 .image{
     height: 7%;
     width: 40%;
     margin-left: 60%;
 }
+.image:hover{
+    height: 10%;
+    width: 50%;
+}
 .image1{
     width: 50%;
+}
+.image1:hover{
+    width: 60%;
 }
