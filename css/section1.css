@@ -69,6 +69,16 @@
     height: 40%;
     width: 35%;
 }
+.slider{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+}
 .button{
     height: 17%;
     width: 22%;

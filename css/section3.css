@@ -25,11 +25,15 @@
 }
 .sec3_b2{
     background-color: white;
-    border-radius: 5%;
+    border-radius: 10%;
     border: 0.5px solid #c4bbb4;
     color: rgb(148, 146, 139);
     padding-left: 1%;
     padding-right: 1%;
+}
+.sec3_b2:hover{
+    background-color: #988677;
+    color: beige;
 }
 .sec3_m{
     height: 70%;
@@ -68,4 +72,7 @@
     padding: 0.5%;
     box-sizing: border-box;
 }
-
+.sec3_b1:hover{
+    background-color: rgb(113, 96, 86);
+    border-bottom: 2px solid #3c3530;
+}

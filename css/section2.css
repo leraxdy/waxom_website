@@ -51,6 +51,10 @@
     color: white;
     font-size: 10px;
 }
+.sec2_b:hover{
+    background-color: rgb(113, 96, 86);
+    border-bottom: 2px solid #3c3530;
+}
 .sec2_t2{
     color: rgb(173 160 155);
     margin: 0;
