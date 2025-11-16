@@ -28,24 +28,41 @@
     gap: 2%;
 }
 .sec6_block{
-    height: 75%;
+    height: 80%;
     width: 17%;
     position: relative;
+}
+.sec6_block:hover .sec6_im{
+    filter: brightness(60%);
+}
+.sec6_block:hover .sec6_t{
+    background-color: rgb(55 46 45);
+
+}
+.sec6_block:hover .sec6_t3{
+    color: beige;
+}
+.sec6_t2{
+    color: rgb(113, 96, 86);
 }
 .sec6_im{
     width: 100%;
     height: 60%;
+    display: block;
 }
 .sec6_t{
     color: rgb(84, 83, 80);
+    transition: 500ms;
 }
-.sec6_arrow{
-    color: #bdb39f;
-    display: flex;
+.sec6_t2{
     margin: 0;
+    transition: 500ms;
 }
+
+
 .sec6_calendar{
     position: absolute;
+    z-index: 1;
     width: 15%;
     height: 15%;
     border-radius: 15%;
@@ -59,6 +76,11 @@
     width: 100%;
     height: 60%;
     font-size: 25px;
+    transition: 500ms;
+}
+
+.sec6_block:hover .sec6_num{
+    background-color: rgb(198 178 160);
 }
 .sec6_mon{
     background-color: #262724;
@@ -67,4 +89,9 @@
     width: 100%;
     height: 40%;
     font-size: 10px;
+    transition: 500ms;
+}
+
+.sec6_block:hover .sec6_mon{
+    background-color: rgb(162 143 117);
 }
