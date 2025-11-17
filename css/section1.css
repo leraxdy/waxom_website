@@ -77,15 +77,38 @@
     height: 40%;
     width: 35%;
 }
-.slider{
+.slider-wrap{
     height: 100%;
     width: 100%;
-    display: flex;
     overflow: hidden;
+}
+.slider{
+    height: 100%;
+    width: 500%;
+    display:flex;
+    animation: 5s slider linear infinite;
 }
 .slide{
     height: 100%;
-    width: 100%;
+    width: 20%;
+}
+
+@keyframes slider {
+    20%{
+        transform: translateX(-20%);
+    }
+    40%{
+        transform: translateX(-20%);
+    }
+    60%{
+        transform: translateX(-20%);
+    }
+    80%{
+        transform: translateX(-20%);
+    }
+    100%{
+        transform: translateX(-20%);
+    }
 }
 .button{
     height: 17%;
@@ -96,11 +119,119 @@
     border-radius: 5%;
     color: white;
     font-size: 10px;
+    margin-top: 5%;
 }
 .button:hover{
     background-color: rgb(113, 96, 86);
     border-bottom: 2px solid #3c3530;
     transition: 500ms;
+}
+
+.sec1_circle{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.circle1{
+    font-size: 20px;
+    animation: circle1 25s infinite;
+}
+
+@keyframes circle1 {
+    0%{
+        font-size: 20px;
+    }
+    10%{
+        font-size: 20px;
+    }
+    15%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+
+.circle2{
+    font-size: 15px;
+    animation: circle2 25s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes circle2 {
+    0%{
+        font-size: 15px;
+    }
+    15%{
+        font-size: 20px;
+    }
+    20%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+.circle3{
+    font-size: 15px;
+    animation: circle3 25s infinite;
+    animation-delay: 10s;
+}
+
+@keyframes circle3 {
+    0%{
+        font-size: 15px;
+    }
+    15%{
+        font-size: 20px;
+    }
+    20%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+.circle4{
+    font-size: 15px;
+    animation: circle4 25s infinite;
+    animation-delay: 15s;
+}
+
+@keyframes circle4 {
+    0%{
+        font-size: 15px;
+    }
+    15%{
+        font-size: 20px;
+    }
+    20%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+.circle5{
+    font-size: 15px;
+    animation: circle5 25s infinite;
+    animation-delay: 20s;
+}
+
+@keyframes circle5 {
+    0%{
+        font-size: 15px;
+    }
+    15%{
+        font-size: 20px;
+    }
+    20%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 15px;
+    }
 }
 
 .left_arrow{
