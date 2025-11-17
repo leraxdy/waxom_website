@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    backdrop-filter: brightness(60%);
 }
 .emblem{
     height: 20vh;
@@ -43,6 +44,12 @@
 }
 .text1{
     margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+.text1:hover{
+    color: #988677;
 }
 .text2{
     margin: 0;
@@ -62,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: brightness(60%);
 }
 .center{
     color: white;
@@ -92,6 +100,7 @@
 .button:hover{
     background-color: rgb(113, 96, 86);
     border-bottom: 2px solid #3c3530;
+    transition: 500ms;
 }
 
 .left_arrow{
@@ -101,6 +110,7 @@
 }
 .left_arrow:hover{
     color: #988677;
+    transition: 500ms;
 }
 .right_arrow{
     color: white;
@@ -109,6 +119,7 @@
 }
 .right_arrow:hover{
     color: #988677;
+    transition: 500ms;
 }
 .image{
     height: 7%;
@@ -118,10 +129,12 @@
 .image:hover{
     height: 10%;
     width: 50%;
+    transition: 500ms;
 }
 .image1{
     width: 50%;
 }
 .image1:hover{
     width: 60%;
+    transition: 500ms;
 }
