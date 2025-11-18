@@ -4,8 +4,16 @@ body, html{
     margin: 0;
     font-family: mainfont, Arial;
     scroll-behavior: smooth;
-    cursor: url("../images/text-cursor.webp") 12 12, text;
     animation: 2s scrollbar_hidden forwards;  
+    p, span, h1, h2, h3, h4, h5, h6, i, li {
+    cursor: url("../images/text-cursor.webp") 12 12, text;
+    }
+    button, a, img {
+    cursor: url("../images/hand_cursor.webp") 12 12, pointer;
+    }
+    html,body{
+    cursor: url("../images/default-cursor.webp") 12 12, default;
+    }
 }
 @keyframes scrollbar_hidden {
     0%{
