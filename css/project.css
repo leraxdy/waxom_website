@@ -4,7 +4,22 @@ body, html{
     margin: 0;
     font-family: mainfont, Arial;
     scroll-behavior: smooth;
+    cursor: url("../images/text-cursor.webp") 12 12, text;
+    animation: 2s scrollbar_hidden forwards;  
 }
+@keyframes scrollbar_hidden {
+    0%{
+        overflow: hidden;
+    }
+    99%{
+        overflow: hidden;
+    }
+    100%{
+        overflow: auto;
+    }
+}
+
+
 @font-face {
     font-family: mainfont;
     src: url("../font/AdventPro_Expanded-Regular.ttf");
@@ -20,10 +35,9 @@ body, html{
         #584738,
         #716056
     );
-    animation: 5s screen_loading 3S forwards;
+    animation: 2s screen_loading 3S forwards;
     position: absolute;
     z-index: 3;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +55,6 @@ body, html{
 }
 
 .sec0{
-    height: 30%;
     width: 15%;
     animation: 5s img_loading -1s linear forwards;
 }
@@ -80,4 +93,25 @@ body, html{
 }
 .sec0_arrow2:hover{
     filter: drop-shadow(0 0 0.45rem #988677);
+}
+
+::selection{
+    color: beige;
+    background-color: #5847388e;
+}
+::-moz-selection{
+    color: beige;
+    background-color: #5847388e;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #584738;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #988677;
+    border-radius: 10px;
 }
