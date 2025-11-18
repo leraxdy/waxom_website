@@ -8,3 +8,54 @@ body, html{
     font-family: mainfont;
     src: url("../font/AdventPro_Expanded-Regular.ttf");
 }
+
+.section0{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-image: linear-gradient(
+        45deg,
+        #988677,
+        #584738,
+        rgb(113, 96, 86)
+    );
+    animation: 5s screen_loading 3S forwards;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(80%);
+}
+
+@keyframes screen_loading {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+        }
+}
+
+.sec0{
+    height: 30%;
+    width: 15%;
+    animation: 5s img_loading -1s linear forwards;
+}
+
+@keyframes img_loading {
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
