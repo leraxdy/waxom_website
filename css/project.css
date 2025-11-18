@@ -3,6 +3,7 @@ body, html{
     width: 100%;
     margin: 0;
     font-family: mainfont, Arial;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: mainfont;
@@ -17,11 +18,11 @@ body, html{
         45deg,
         #988677,
         #584738,
-        rgb(113, 96, 86)
+        #716056
     );
     animation: 5s screen_loading 3S forwards;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -58,4 +59,25 @@ body, html{
     100%{
         transform: rotate(360deg);
     }
+}
+
+.sec0_arrow{
+    position: fixed;
+    top: 85%;
+    right: 1%;
+    transform: rotate(-90deg);
+    z-index: 2;
+}
+.sec0_arrow:hover{
+    filter: drop-shadow(0 0 0.45rem #988677);
+}
+.sec0_arrow2{
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.sec0_arrow2:hover{
+    filter: drop-shadow(0 0 0.45rem #988677);
 }
