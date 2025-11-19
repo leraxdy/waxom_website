@@ -38,13 +38,13 @@
 }
 .sec3_m{
     height: 70%;
-    width: 55%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .sec3_block{
-    height: 45%;
+    height: 40%;
     width: 30%;
     position: relative;
 }
@@ -79,6 +79,10 @@
     opacity: 0;
     transition: 500ms;
 }
+.sec3_im1:hover {
+    content: url('../images/sec3_im_ioupe.webp'); 
+}
+
 .sec3_im2{
     position: absolute;
     height: 20%;
@@ -87,6 +91,10 @@
     left: 25%;
     opacity: 0;
     transition: 500ms;
+}
+
+.sec3_im2:hover {
+    content: url('../images/sec3_im_link.webp'); 
 }
 .sec3_t{
     height: 30%;
