@@ -258,19 +258,47 @@
     transition: 500ms;
 }
 .image{
-    height: 7%;
-    width: 40%;
+    height: 20px;
+    width: 20px;
     margin-left: 60%;
 }
 .image:hover{
-    height: 10%;
-    width: 50%;
+    height: 25px;
+    width: 25px;
     transition: 500ms;
 }
 .image1{
-    width: 50%;
+    height: 25px;
+    width: 25px;
+    margin: 40%;
 }
 .image1:hover{
-    width: 60%;
+    height: 30px;
+    width: 30px;
     transition: 500ms;
+}
+
+.sec1_menu{
+    position: absolute;
+    top: -15%;
+    left: 90%;
+    z-index: 9999;
+    opacity: 0;
+}
+summary{ /*Firefox*/
+    display: block;
+}
+::-webkit-details-marker {display: none;}
+
+.text2{
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+    font-size: 15px;
+    position: relative; 
+    z-index: 9999;
+}
+.text2:hover{
+    color: #988677;
 }

@@ -1,0 +1,35 @@
+@media (max-width: 1300px) {
+    .sec1_menu{
+        opacity: 1;
+    }
+    .text1{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .sec5_li{
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 30%;
+    }
+    .image{
+        opacity: 0;
+    }
+    .image1{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .sec3_m{
+        height: 60%;
+        width: 80%;
+        flex-direction: column;
+        overflow: auto;
+        margin: 5%;
+    }
+    .sec3_t{
+        overflow: auto;
+    }
+}
