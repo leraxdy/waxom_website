@@ -6,13 +6,13 @@ body, html{
     scroll-behavior: smooth;
     animation: 2s scrollbar_hidden forwards;  
     p, span, h1, h2, h3, h4, h5, h6, i, li {
-    cursor: url("images/text-cursor.webp") 12 12, text;
+    cursor: url("/images/text-cursor.webp") 12 12, text;
     }
     button, a, img {
-    cursor: url("images/hand_cursor.webp") 12 12, pointer;
+    cursor: url("/images/hand_cursor.webp") 12 12, pointer;
     }
     html,body{
-    cursor: url("images/default-cursor.webp") 0 0, default;
+    cursor: url("/images/default-cursor.webp") 0 0, default;
     }
 }
 @keyframes scrollbar_hidden {
@@ -30,7 +30,7 @@ body, html{
 
 @font-face {
     font-family: mainfont;
-    src: url("font/AdventPro_Expanded-Regular.ttf");
+    src: url("/font/AdventPro_Expanded-Regular.ttf");
 }
 
 .section0{

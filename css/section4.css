@@ -1,7 +1,7 @@
 .section4{
     height: 60%;
     width: 100%;
-    background-image: url("images/sec4_im.webp");
+    background-image: url("/images/sec4_im.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
