@@ -290,7 +290,7 @@ summary{ /*Firefox*/
 }
 ::-webkit-details-marker {display: none;}
 
-.text2{
+.text_menu{
     margin: 0;
     color: white;
     text-decoration: none;
@@ -299,6 +299,6 @@ summary{ /*Firefox*/
     position: relative; 
     z-index: 9999;
 }
-.text2:hover{
+.text_menu:hover{
     color: #988677;
 }
