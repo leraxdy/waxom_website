@@ -80,7 +80,7 @@
     transition: 500ms;
 }
 .sec3_im1:hover {
-    content: url('images/sec3_im_ioupe.webp'); 
+    content: url('../images/sec3_im_ioupe.webp'); 
 }
 
 .sec3_im2{
@@ -94,7 +94,7 @@
 }
 
 .sec3_im2:hover {
-    content: url('images/sec3_im_link.webp'); 
+    content: url('../images/sec3_im_link.webp'); 
 }
 .sec3_t{
     height: 30%;
