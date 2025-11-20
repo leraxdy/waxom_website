@@ -18,12 +18,15 @@ body, html{
 @keyframes scrollbar_hidden {
     0%{
         overflow: hidden;
+        overflow-x: hidden;
     }
     99%{
         overflow: hidden;
+        overflow-x: hidden;
     }
     100%{
         overflow: auto;
+        overflow-x: hidden;
     }
 }
 
