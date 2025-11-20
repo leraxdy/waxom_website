@@ -48,14 +48,12 @@
 .sec2_im_pencil{
     position: absolute;
     left: 40%;
-    top: 23%;
-    height: 15%;
+    top: 10%;
     width: 20%;
     opacity: 0;
 }
 
 .sec2_im1{
-    height: 30%;
     width: 20%;
 }
 

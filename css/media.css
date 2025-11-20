@@ -19,6 +19,18 @@
     .image1{
         opacity: 0;
     }
+    .text2{
+    margin: 0;
+    font-size: 40px;
+    }
+    .text3{
+        margin: 0;
+        font-size: 20px;
+    }
+    .text4{
+        margin: 0;
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -30,6 +42,85 @@
         margin: 5%;
     }
     .sec3_t{
-        overflow: auto;
+        font-size: 10px;
     }
+
+
+    
 }
+
+@media (max-width: 700px)  {
+    
+
+    
+    .text{
+        margin-left: 0%;
+    }
+    .emblem{
+        justify-content: flex-start;
+    }
+    
+
+    .text2{
+    margin: 0;
+    font-size: 30px;
+    }
+    .text3{
+        margin: 0;
+        font-size: 20px;
+    }
+    .text4{
+        margin: 0;
+        font-size: 15px;
+    }
+    .button{
+        height: 17%;
+        width: 35%;
+    }
+
+    .blocks{
+    height: 100%;
+    width: 50%;
+    }
+    .sec2_b{
+    height: 50%;
+    width: 20%;
+    }
+
+    .sec5_im{
+    height: 60%;
+    width: 30%;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 40%;
+    justify-content: space-between;
+    }
+    .sec5_text{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    }
+    .sec5_t_1{
+    color: rgb(84, 83, 80);
+    font-size: 10px;
+    }
+    .sec5_element1{
+    height: 90%;
+    width: 30%;
+    }
+    .sec6_block{
+    height: 80%;
+    width: 30%;
+    position: relative;
+    }
+    .sec6_calendar{
+    width: 25%;
+    height: 15%;
+    }
+    .sec7_im{
+    width: 20%;
+}
+}
+/*1000 px in sec3*/
